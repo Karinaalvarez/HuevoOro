@@ -119,7 +119,7 @@ const Nosotros = () => {
   const values = [
     {
       id: 1,
-      icon: '👨‍👩‍👧‍👦',
+      image: 'https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=300&h=300&fit=crop',
       title: 'Nuestros Valores',
       description: 'Transparencia, procesos claros y confiables para generar confianza. Calidad, huevos frescos, nutritivos y libres de químicos innecesarios...',
       fullContent: (
@@ -147,7 +147,7 @@ const Nosotros = () => {
     },
     {
       id: 2,
-      icon: '🏭',
+      image: 'https://images.unsplash.com/photo-1516467508483-a7212febe31a?w=300&h=300&fit=crop',
       title: 'Nuestro Proceso',
       description: 'Gallinas Hy-Line Brown criadas en instalaciones modernas. Alimentación balanceada y natural. Recolección diaria de huevos. Sistema de bioseguridad estricto...',
       fullContent: (
@@ -180,7 +180,7 @@ const Nosotros = () => {
     },
     {
       id: 3,
-      icon: '💡',
+      image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=300&h=300&fit=crop',
       title: 'Innovación Tecnológica',
       description: 'Nuestro software de gestión es una herramienta única en el mercado local, diseñada para productores que...',
       fullContent: (
@@ -255,7 +255,9 @@ const Nosotros = () => {
         <div className="values-container">
           {values.map((value) => (
             <div key={value.id} className="value-card">
-              <div className="value-icon">{value.icon}</div>
+              <div className="value-image">
+                <img src={value.image} alt={value.title} />
+              </div>
               <h3 className="value-title">
                 <span className="value-bullet">●</span> {value.title}
               </h3>
