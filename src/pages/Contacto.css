@@ -112,11 +112,11 @@
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 }
 
-.form-group {
+.contacto-form-container .form-group {
   margin-bottom: 1.5rem;
 }
 
-.form-group label {
+.contacto-form-container .form-group label {
   display: block;
   font-weight: 600;
   color: #333;
@@ -126,8 +126,8 @@
   letter-spacing: 0.5px;
 }
 
-.form-group input,
-.form-group textarea {
+.contacto-form-container .form-group input,
+.contacto-form-container .form-group textarea {
   width: 100%;
   padding: 1rem;
   border: none;
@@ -138,23 +138,23 @@
   color: #333;
 }
 
-.form-group input::placeholder,
-.form-group textarea::placeholder {
+.contacto-form-container .form-group input::placeholder,
+.contacto-form-container .form-group textarea::placeholder {
   color: #888;
 }
 
-.form-group input:focus,
-.form-group textarea:focus {
+.contacto-form-container .form-group input:focus,
+.contacto-form-container .form-group textarea:focus {
   outline: none;
   background: #cdb9a8;
 }
 
-.form-group textarea {
+.contacto-form-container .form-group textarea {
   resize: vertical;
   min-height: 150px;
 }
 
-.submit-btn {
+.contacto-form-container .submit-btn {
   width: 100%;
   padding: 1rem;
   background: #c9b8a8;
@@ -170,12 +170,12 @@
   margin-top: 1rem;
 }
 
-.submit-btn:hover {
+.contacto-form-container .submit-btn:hover {
   background: #b8a797;
   transform: translateY(-2px);
 }
 
-.submit-btn:active {
+.contacto-form-container .submit-btn:active {
   transform: translateY(0);
 }
 
