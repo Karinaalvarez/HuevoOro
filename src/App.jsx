@@ -7,6 +7,7 @@ import Galeria from './pages/Galeria'
 import Recetas from './pages/Recetas'
 import Contacto from './pages/Contacto'
 import Login from './pages/Login'
+import Registro from './pages/Registro'
 import './App.css'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/recetas" element={<Recetas />} />
         <Route path="/contacto" element={<Contacto />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/registro" element={<Registro />} />
       </Routes>
     </Router>
   )
