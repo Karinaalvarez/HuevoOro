@@ -1,0 +1,23 @@
+NOTA: Imágenes Temporales
+
+Mientras agregas las imágenes reales, puedes usar estas URLs de placeholder:
+
+Para el slider (1920x600):
+- https://placehold.co/1920x600/4a6fa5/ffffff?text=Avicultura+Huevo+D'Oro
+- https://placehold.co/1920x600/2c4a6e/ffffff?text=Calidad+Premium
+- https://placehold.co/1920x600/d4a574/ffffff?text=Tradicion
+
+Para la presentación (800x600):
+- https://placehold.co/800x600/f4a460/ffffff?text=Gallinas
+- https://placehold.co/800x600/d4a574/ffffff?text=Huevos
+- https://placehold.co/800x600/c9b896/ffffff?text=Granja
+
+Para "Por qué elegirnos" (600x600):
+- https://placehold.co/600x600/f4a460/ffffff?text=Pollito
+
+O puedes buscar imágenes gratuitas en:
+- Unsplash.com
+- Pexels.com
+- Pixabay.com
+
+Busca términos como: "chicken farm", "eggs", "poultry", "chickens", "hen house"
