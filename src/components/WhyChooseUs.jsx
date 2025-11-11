@@ -43,7 +43,7 @@ const WhyChooseUs = () => {
       <div className="why-choose-container">
         <div className="content-wrapper">
           <div className="features-section">
-            <h2 className="section-title">Por que Elegirnos</h2>
+            <h2 className="section-title">Por que Elegirnos?</h2>
             
             <div className="features-list">
               {features.map((feature, index) => (
