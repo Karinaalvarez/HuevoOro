@@ -1,0 +1,122 @@
+.recetas-page {
+  width: 100%;
+  min-height: 100vh;
+  background: #4a6fa5;
+  padding-bottom: 3rem;
+}
+
+/* Hero Section */
+.recetas-hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+  align-items: stretch;
+}
+
+/* Info Box */
+.recetas-info-box {
+  background: linear-gradient(135deg, #f5f5dc 0%, #e8e8c8 100%);
+  border-radius: 20px;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.info-title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #5a7d3a;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: 3px solid #8b4789;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.info-egg-icon {
+  font-size: 2.5rem;
+}
+
+.info-description {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.info-cta-btn {
+  align-self: flex-start;
+  background: transparent;
+  border: 2px solid #5a7d3a;
+  color: #5a7d3a;
+  padding: 0.8rem 2rem;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.info-cta-btn:hover {
+  background: #5a7d3a;
+  color: #fff;
+}
+
+/* Featured Recipes Grid */
+.featured-recipes-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+/* Recipe Grid */
+.recetas-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.recipes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .recetas-hero {
+    grid-template-columns: 1fr;
+  }
+  
+  .recipes-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .recetas-info-box {
+    padding: 2rem;
+  }
+  
+  .info-title {
+    font-size: 2.2rem;
+  }
+  
+  .featured-recipes-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .recipes-grid {
+    grid-template-columns: 1fr;
+  }
+}
