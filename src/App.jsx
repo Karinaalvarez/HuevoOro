@@ -8,6 +8,7 @@ import Recetas from './pages/Recetas'
 import Contacto from './pages/Contacto'
 import Login from './pages/Login'
 import Registro from './pages/Registro'
+import Dashboard from './pages/admin/Dashboard'
 import './App.css'
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/contacto" element={<Contacto />} />
         <Route path="/login" element={<Login />} />
         <Route path="/registro" element={<Registro />} />
+        <Route path="/admin/dashboard" element={<Dashboard />} />
       </Routes>
     </Router>
   )
